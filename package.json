@@ -8,13 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tailwindcss": "^3.2.1"
+    "@types/uuid": "^8.3.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.2.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.10",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.0.7",
     "autoprefixer": "^10.4.12",
     "jotai": "^1.8.6",
