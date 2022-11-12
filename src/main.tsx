@@ -6,6 +6,7 @@ let container = document.getElementById('root') as HTMLElement;
 
 let root = createRoot(container);
 
+
 root.render(
   <React.StrictMode>
     <App />
