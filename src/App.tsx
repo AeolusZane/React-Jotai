@@ -2,8 +2,8 @@ import { atom, useAtom } from "jotai";
 import logo from "./logo.svg";
 import "./App.css";
 import { DarkMode } from "./DarkMode";
-import Input from "./Todo";
-import { Redux } from "./Redux";
+// import Input from "./Todo";
+// import { Redux } from "./Redux";
 import { atomWithReset, useResetAtom } from "jotai/utils";
 
 
@@ -45,7 +45,7 @@ function App() {
         <DarkMode />
         <Price />
         <Total />
-        <Input />
+        {/* <Input /> */}
         <p>
           <button type="button" >
             count is: {count}
